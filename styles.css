@@ -1,0 +1,45 @@
+body{
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    overflow-x: hidden;
+}
+.bg{
+    background: url(./images/20260317_153419.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 70vh;
+    width: 100%;
+}
+.nav{
+    background: linear-gradient(to right, rgba(3, 3, 41, 0.822), rgba(4, 4, 65, 0.849), rgba(3, 3, 99, 0.836));
+}
+.img{
+    width: 70%;
+}
+.imgg{
+    width: 100%;
+}
+#about{
+    border-bottom: solid 1px navy;
+    padding-bottom: 20px;
+}
+.skill{
+    background: linear-gradient(to left, rgb(3, 3, 41), rgb(4, 4, 65), rgb(3, 3, 99));
+}
+.foot{
+    background: url(./images/20260317_153419.png);
+}
+
+    @keyframes blink {
+  0%, 100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
+}
+
+.blk {
+  animation: blink 1s infinite;
+}

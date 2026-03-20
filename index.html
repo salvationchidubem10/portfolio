@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon (6).ico">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <section class="bg">
+        <nav class="flex justify-between px-4 md:px-12 pt-2 nav fixed right-0 left-0">
+            <div class="text-lg font-bold text-white flex gap-4">
+                <img src="./images/My Logo.png" class="w-12" alt="logo">
+                <h4 class="pt-2">BrainzCode</h4>
+            </div>
+            <ul class="list-none flex gap-4 text-white pt-3 hidden md:flex">
+                <a href="#home" class="hover:text-blue-400"><li>Home</li></a>
+                <a href="#about" class="hover:text-blue-400"><li>About Me</li></a>
+                <a href="#skills" class="hover:text-blue-400"><li>Skills</li></a>
+                <a href="#port" class="hover:text-blue-400"><li>Projects</li></a>
+                <a href="#cont" class="hover:text-blue-400"><li>Contact</li></a>
+            </ul>
+            <div class="md:hidden text-white pt-2">
+                <button>
+                    ☰
+                </button>
+            </div>
+        </nav>
+        
+        <div class="pt-24 text-center lg:hidden md:items-center pb-5">
+            <div class="px-10 flex justify-center">
+                <img src="./images/port image-Photoroom.png" class="w-40 rounded-full border-2 border-white" alt="">
+            </div>
+            <div>
+                <div class="text-white px-10">
+                    <h4 class="font-bold text-xl pt-4">Salvation Chidubem</h4>
+                    <p>I'm a creative and detail-oriented <br> <span class="font-bold">Web Developer, UI/UX Designer & Software Engineer</span>. 
+                        My work combines technical skill with aesthetic sensibility to craft solutions 
+                        that are both functional and visually engaging.
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="flex justify-center pl-4 lg:pt-16 lg:pl-32 hidden lg:flex" id="home">
+            <div class="text-white">
+                <h4 class="font-bold text-xl pt-32">Salvation Chidubem</h4>
+                <p>I'm a creative and detail-oriented <br> <span class="font-bold">Web Developer, UI/UX Designer & Software Engineer</span>. 
+                  My work combines technical skill with aesthetic sensibility to craft solutions 
+                that are both functional and visually engaging.</p>
+            </div>
+            <div>
+                <img src="./images/port image-Photoroom.png" class="img" alt="">
+            </div>       
+        </div>
+    </section>
+
+    <main>
+        <div class="fixed bottom-42 lg:bottom-32 lg:right-2 right-5 z-40 blk">
+            <a href="https://wa.link/tq7e8i"><img src="./images/whatsapp.png" class="lg:w-16 w-12" alt=""></a>
+        </div>
+       
+        <div class="flex justify-center pt-12 px-10 hidden lg:flex">
+            <div class="font-medium text-center px-3 lg:px-40 pt-24">
+                <h2 class="text-xl font-bold text-blue-900">Objectives</h2>
+                <p class="lg:mb-16">To showcase my expertise, creativity, and problem solving skills through projects that highlight my ability to deliver 
+                    high-quality work across Web development, UI/UX and software engineer.
+                </p>
+            </div>
+            <div class="">
+                <img src="./images/objective-Photoroom.png" class="img" alt="">
+            </div>
+        </div>
+            <!--mobile-->
+            <div class="lg:hidden pt-16">
+                <div class="flex justify-center">
+                    <img src="./images/objective-Photoroom.png" class="w-32 rounded-full" alt="">
+                </div>
+                <div class="font-medium text-center px-3 lg:px-40 pt-2">
+                    <h2 class="text-xl font-bold text-blue-900">Objectives</h2>
+                    <p>To showcase my expertise, creativity, and problem solving skills through projects that highlight my ability to deliver 
+                        high-quality work across Web development, UI/UX and software engineer.
+                    </p>
+                </div>
+            </div>
+        
+        <div class="flex justify-center pt-12 px-10 hidden lg:flex" id="about">
+            <div class="pl-10 lg:ml-10 hidden lg:flex">
+                <img src="./images/about me-Photoroom.png" class="w-96" alt="">
+            </div>
+
+            <div class="font-medium text-center px-3 lg:px-40 pt-24">
+                <h2 class="text-xl font-bold text-blue-900">About Me</h2>
+                <p class="lg:mb-16">I'm a passionate web developer and designer specializing in building 
+                    responsive and intuitive experiences. I enjoy turning ideas into beautiful functional websites 
+                    that solve real problems.
+                </p>
+            </div>
+        </div>
+        <!--mobile-->
+        <div class="lg:hidden pt-16" id="about">
+            <div class="flex justify-center">
+                <img src="./images/about me-Photoroom.png" class="w-32" alt="">
+            </div>
+            <div class="font-medium text-center px-3 lg:px-40 pt-2">
+                <h2 class="text-xl font-bold text-blue-900">About Me</h2>
+                <p>I'm a passionate web developer and designer specializing in building 
+                    responsive and intuitive experiences. I enjoy turning ideas into beautiful functional websites 
+                    that solve real problems.
+                </p>
+            </div>
+        </div>
+    
+
+        <div class="skill mt-12 py-8" id="skills">
+            <div class="text-xl font-bold text-white flex justify-center py-2">
+                <h2>Skills & Expertise</h2>
+            </div>
+            <div class="grid grid-cols-1 px-12 text-center lg:flex justify-center gap-4 lg:gap-8 pt-6">
+                
+                <div class="h-full transform hover:scale-105 transition duration-300">
+                    <div class="flex justify-center -mb-16">
+                        <img src="./images/web dev-Photoroom.png" class="w-32 bg-white rounded-full px-4 py-4 z-10 shadow-2xl" alt="">
+                    </div>
+                    <div class="bg-white shadow-2xl px-8 py-4 pt-16 lg:h-full rounded-xl">
+                        <h2 class="text-xl font-bold flex justify-center text-blue-900 pt-2">Web Development</h2>
+                        <p class="font-medium lg:w-80 text-center pt-5">HTML, CSS, JavaScript, React, Node.js, Next.js</p>
+                    </div>
+                </div>
+                
+                <div class="h-full transform hover:scale-105 transition duration-300">
+                    <div class="flex justify-center -mb-16">
+                        <img src="./images/design-thinking.png" class="w-32 bg-white rounded-full px-4 py-4 z-10 shadow-2xl" alt="">
+                    </div>
+                    <div class="bg-white shadow-2xl px-8 py-4 lg:h-full pt-24 rounded-xl">
+                        <h2 class="text-xl font-bold flex justify-center text-blue-900">Design & UX</h2>
+                        <p class="font-medium pt-5">VS Code, Pixellab</p>
+                    </div>
+                </div>
+                
+                <div class="h-full transform hover:scale-105 transition duration-300">
+                    <div class="flex justify-center -mb-16">
+                        <img src="./images/skill.png" class="w-32 bg-white rounded-full px-4 py-4 z-10 shadow-2xl" alt="">
+                    </div>
+                    <div class="bg-white shadow-2xl px-8 py-4 pt-16 lg:h-full rounded-xl">
+                        <h2 class="text-xl font-bold flex justify-center text-blue-900 pt-2">Other Skills</h2>
+                        <p class="font-medium lg:w-80 text-center pt-5">Responsive Designs, Accessbility, Performance Optimization</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="bg-blue-900 w-24 px-4 pt-1 ml-10 rounded text-white mt-12 hover:bg-gray-400 hover:text-black" id="port">
+            <a href="port.html"><h1>Projects</h1></a>
+        </div>
+    </main>
+
+    <footer class="foot">
+        <div>
+            <div class="pt-5 flex justify-center lg:gap-96 gap-48 px-5">
+                <div class=" grid grid-cols-1 font-medium text-white text-sm pb-6 list-none">
+                    <h1 class="text-white lg:pl-40 font-bold text-lg">Quick links</h1>
+                    <div class="pt-2 lg:flex">
+                        <a href="#home" class="hover:text-blue-400"><li class="px-4">Home</li></a>
+                        <a href="#about" class="hover:text-blue-400"><li class="px-4">About Me</li></a>
+                        <a href="#skills" class="hover:text-blue-400"><li class="px-4">Skills</li></a>
+                        <a href="#port" class="hover:text-blue-400"><li class="px-4">Porfolio</li></a>
+                        <a href="#cont" class="hover:text-blue-400"><li class="px-4">Contact</li></a>
+                    </div>
+                    
+                </div>
+
+                <div class="text-white font-bold text-lg grid grid-cols-1 lg:flex lg:gap-2 lg:pt-7" id="cont">
+                    <a href="https://www.instagram.com/salvationchidubem31/"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/salvationchidubem31"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://wa.link/tq7e8i"><i class="fa-brands fa-whatsapp"></i></a>
+                    <a href="https://www.linkedin.com/in/salvation-chidubem-4816103a8/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+            </div>
+            <div class="flex justify-center text-white pb-4 pt-2">
+                Copyright: © 2026 Salvationchidubem
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
